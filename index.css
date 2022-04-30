@@ -16,6 +16,8 @@
     }
 }
 
+
+/* 
 @media (max-width:500px) {
     .icon {
         text-align: center;
@@ -29,6 +31,60 @@
     }
     .MyName {
         font-size: 30px;
+    }
+} */
+
+@media (max-width:450px) {
+    .experience {
+        width: 484px;
+    }
+    .icon {
+        width: 484px;
+        text-align: center;
+    }
+    .name {
+        width: 484px;
+    }
+    .nasirimg {
+        margin-left: 100px;
+        display: inline-block;
+        position: relative;
+        left: 60px;
+    }
+    .details {
+        position: relative;
+        left: 60px;
+    }
+    .aboutme {
+        position: relative;
+        left: 60px;
+    }
+    .who {
+        position: relative;
+        left: 60px;
+    }
+    .Youtuber {
+        position: relative;
+        left: 60px;
+    }
+    .expe {
+        width: 484px;
+    }
+    .cv {
+        margin-bottom: 100px;
+    }
+    .facebook {
+        font-size: 40px;
+        margin-top: 8px;
+    }
+    .MyName {
+        font-size: 30px;
+    }
+    .col {
+        width: 484px;
+    }
+    .box2 {
+        height: 1000px;
     }
 }
 
@@ -337,6 +393,7 @@
 }
 
 .col {
+    margin-top: -1px;
     background-color: black;
     height: 130px;
 }
