@@ -707,4 +707,14 @@ nav .menu-btn {
     .copyright {
         font-size: 14px;
     }
+    .na {
+        margin-left: 13px;
+    }
+    .skbox2 {
+        margin-right: 50px;
+    }
+    .skbox1 p,
+    .text {
+        margin-right: 50px;
+    }
 }
