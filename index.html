@@ -5,32 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/fd8b614daf.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/fd8b614daf.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div class="navbar" id="">
-        <div class="portfolio">
-            Portfo<span class="lio">lio.</span>
-        </div>
-        <div class="option">
-            <a href="#start" class="home">Home</a>
-            <a href="#about" class="home">About</a>
-            <a href="#experience1" class="home">Experience</a>
-            <a href="#skils" class="home">Skills</a>
-            <a href="#team" class="home">Teams</a>
-            <a href="#con" class="home">Contact</a>
-        </div>
-    </div>
-    <div class="name" id="start">
-        <div class="MyName">Hello! My name is</div>
-        <div class="Nasir">Mohd Nasir</div>
-        <div class="Developer">And I'm a <span class="dev">Developer.</span></div>
-        <br>
-        <div class="hireme"><a href="" class="hire">Hire me</a></div>
-        <br>
+    <!-- navigation bar cadoin. -->
+    <nav>
+        <div class="logo">Portfo<span>lio.</span></div>
+        <input type="checkbox" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#box2">About</a></li>
+            <li><a href="#box1">Experience</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="#team">Teams</a></li>
+            <li><a href="#last">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- link section -->
+    <div class="linksection">
+        <div class="text1">Hello! My name is</div>
+        <div class="text2">Nasir Siddiqui</div>
+        <div class="text3">And I'm a YouTuber.</div>
+        <div class="hire-btn"><a href="#">Hire me</a></div>
         <div class="icon">
             <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
             <a href="" class="facebook"><i class="fa-brands fa-twitter"></i></a>
@@ -39,113 +42,137 @@
             <a href="" class="facebook"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </div>
+    <!-- About Section -->
     <div class="about">
-        <div class="aboutme">
-            About me
-        </div>
-        <div class="who" id="about">
-            Who i m
-        </div>
-    </div>
-    <div class="img1">
-        <div class="box1">
-            <div class="nasirimg">
-                <img src="nasir.jpg" width="400px" height="400px" alt="">
-            </div>
-        </div>
+        <div class="box1" id="box2">About me</div>
         <div class="box2">
-            <div class="Youtuber">I'm Mohd Nasir and YouTuber</div>
-            <p>
-                <p class="details">I'm pursuing my Bachelor's Degree in Computer Science from Graphic Era Deemed University, Dehradun.
-                    <br>
-                    <br> ➡️I am interested in Web Development, Linux, Open-Source, Public Speaking, Video Editing, and Photography.
-                    <br>
-                    <br> ➡️I am a Quick learner & adaptable in nuture.
-                    <br>
-                    <br> ➡️I love to create solutions for real-world problems.
-                    <br>
-                    <br> ➡️I am open for Internships and Part-Time offers in the field of Software Development Engineering.</p>
-            </p>
-            <div class="cv"><a href="" class="nasircv">Download CV</a></div>
+            <img src="nasir.jpg" alt="">
         </div>
-    </div>
-    <div class="expe" id="experience1">
-        <h2 class="expe2">Experience</h2>
-    </div>
-    <div class="experience">
-        <div class="box">
-            <a href=""><img src="Hustlers.png" class="abc" alt=""></a>
-            <div class="text">Co-Founder of The Hustlers </div>
-            <p class="textdetails"> Working as Associate Lead at the Microsoft Learn Student Community, handling all responsibilities and challenges faced by the student community in organsied events, workshops and related sessions.</p>
-        </div>
-        <div class="box">
-            <a href=""><img src="Hustlers.png" class="abc" alt=""></a>
-            <div class="text">Associate Lead at Microsoft Learn Student Community</div>
-            <p class="textdetails">I with my Team Hustlers work as a Digital Content Creation team of Prodevans Technologies creating and desgining promotional didgital content for its social media platforms.</p>
-        </div>
-        <div class="box">
-            <a href=""><img src="Hustlers.png" class="abc" alt=""></a>
-            <div class="text">Digital Content Creator at Prodevans Technologies</div>
-            <p class="textdetails">I with my Team Hustlers work as a Digital Content Creation team of Prodevans Technologies creating and desgining promotional didgital content for its social media platforms.</p>
-        </div>
-    </div>
-    <div class="col"></div>
-    <div class="about">
-        <div class="aboutme" id="skils">
-            My Skills
-        </div>
-        <div class="who">
-            What I Know
-        </div>
-    </div>
-    <div class="skilsdetails">
         <div class="box3">
+            <div class="text">I'm Nasir Siddiqui and YouTuber</div>
+            <p>I'm pursuing my Bachelor's Degree in Computer Science from Graphic Era Deemed University, Dehradun.
+                <br>
+                <br> ➡️I am interested in Web Development, Linux, Open-Source, Public Speaking, Video Editing, and Photography.
+                <br>
+                <br> ➡️I am a Quick learner & adaptable in nuture.
+                <br>
+                <br> ➡️I love to create solutions for real-world problems.
+                <br>
+                <br> ➡️I am open for Internships and Part-Time offers in the field of Software Development Engineering.</p>
+            <div class="cv"><a href="#">Download CV</a></div>
+        </div>
+    </div>
+    <!-- experience -->
+    <div class="experience">
+        <div class="box1" id="box1">Experience</div>
+        <div class="exp1">
+            <img src="Hustlers.png" width="140px" height="140px" alt="">
+            <div class="text">Co-Founder of The Hustlers </div>
+            <p> I with my team started a small Digital Content Creation and Digital Marketting start-up where we design digital promotional content for our clients. In addition we also have a youtube channel, Instagram and Linkedin Page. </p>
+        </div>
+        <div class="exp1">
+            <img src="Hustlers.png" width="140px" height="140px" alt="">
+            <div class="text">Co-Founder of The Hustlers </div>
+            <p> I with my team started a small Digital Content Creation and Digital Marketting start-up where we design digital promotional content for our clients. In addition we also have a youtube channel, Instagram and Linkedin Page. </p>
+        </div>
+        <div class="exp1">
+            <img src="Hustlers.png" width="140px" height="140px" alt="">
+            <div class="text">Co-Founder of The Hustlers </div>
+            <p> I with my team started a small Digital Content Creation and Digital Marketting start-up where we design digital promotional content for our clients. In addition we also have a youtube channel, Instagram and Linkedin Page. </p>
+        </div>
+    </div>
+    <div class="My">My Skills</div>
+    <div class="skills">
+        <div class="skbox1">
             <div class="text">My creative skills & experiences.</div>
             <p class="textde">I am the Co-Founder of The Hustlers, a digital content creation and digital marketting start-up where we create digital promotional content for our clients. Team Hustlers also run a youtube channel where we create educational content, some
                 cool tech videos and conduct amazing podcasts. I also work as an Associate Lead for MLSC where I handle all the organsied events, conferences and different workshops. I have keen interest in web development and always ready to learn and
                 explore more to grow. I'm also a Hashnode Ambassador. </p>
+            <div class="Read-More"><a href="#">Read More</a></div>
+        </div>
+        <div class="skbox2">
+            <div class="line">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+            <div class="bar">
+                <div class="html"></div>
+            </div>
+            <div class="line">
+                <span>CSS</span>
+                <span>70%</span>
+            </div>
+            <div class="bar">
+                <div class="css"></div>
+            </div>
+            <div class="line">
+                <span>JavaScript</span>
+                <span>50%</span>
+            </div>
+            <div class="bar">
+                <div class="java"></div>
+            </div>
+            <div class="line">
+                <span>Git</span>
+                <span>75%</span>
+            </div>
+            <div class="bar">
+                <div class="git"></div>
+            </div>
+            <div class="line">
+                <span>GitHUb</span>
+                <span>75%</span>
+            </div>
+            <div class="bar">
+                <div class="github"></div>
+            </div>
+            <div class="line">
+                <span>C</span>
+                <span>90%</span>
+            </div>
+            <div class="bar">
+                <div class="c"></div>
+            </div>
+            <div class="line">
+                <span>MySQL</span>
+                <span>70%</span>
+            </div>
+            <div class="bar">
+                <div class="sql"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="experience" id="team">
+        <div class="box1" id="box1">My Team</div>
+        <div class="exp1">
+            <img class="teamsimage" src="nasir.jpg" alt="">
+            <div class="text">Deepak Singh</div>
+            <p>Co-Founder of The Hustlers | MLSA@ Microsoft |Aspiring Full Stack Developer|Freelancer |Digital Content Creator | Open Source Enthusiast | Tech Enthusiast</p>
+        </div>
+        <div class="exp1">
+            <img class="teamsimage" src="nasir.jpg" alt="">
+            <div class="text">Deepak Singh</div>
+            <p>Co-Founder of The Hustlers | MLSA@ Microsoft |Aspiring Full Stack Developer|Freelancer |Digital Content Creator | Open Source Enthusiast | Tech Enthusiast</p>
+        </div>
+        <div class="exp1">
+            <img class="teamsimage" src="nasir.jpg" alt="">
+            <div class="text">Deepak Singh</div>
+            <p>Co-Founder of The Hustlers | MLSA@ Microsoft |Aspiring Full Stack Developer|Freelancer |Digital Content Creator | Open Source Enthusiast | Tech Enthusiast</p>
+        </div>
+        <div class="exp1">
+            <img class="teamsimage" src="nasir.jpg" alt="">
+            <div class="text">Deepak Singh</div>
+            <p>Co-Founder of The Hustlers | MLSA@ Microsoft |Aspiring Full Stack Developer|Freelancer |Digital Content Creator | Open Source Enthusiast | Tech Enthusiast</p>
+        </div>
+        <div class="exp1">
+            <img class="teamsimage" src="nasir.jpg" alt="">
+            <div class="text">Deepak Singh</div>
+            <p>Co-Founder of The Hustlers | MLSA@ Microsoft |Aspiring Full Stack Developer|Freelancer |Digital Content Creator | Open Source Enthusiast | Tech Enthusiast</p>
         </div>
     </div>
-    <div class="expe">
-        <h2 class="expe2" id="team">MyTeam</h2>
-    </div>
-    <div class="experience">
-        <div class="box">
-            <a href=""><img src="nasir.jpg" class="abc abc1" alt=""></a>
-            <div class="text">Nasir Siddiqui</div>
-            <p class="textdetails"> Working as Associate Lead at the Microsoft Learn Student Community, handling all responsibilities and challenges faced by the student community in organsied events, workshops and related sessions.</p>
-        </div>
-        <div class="box">
-            <a href=""><img src="a.jpg" class="abc abc1" alt=""></a>
-            <div class="text">Anirudh Chandan</div>
-            <p class="textdetails">I with my Team Hustlers work as a Digital Content Creation team of Prodevans Technologies creating and desgining promotional didgital content for its social media platforms.</p>
-        </div>
-        <div class="box" class="bo">
-            <a href=""><img src="nasir.jpg" class="abc abc1" alt=""></a>
-            <div class="text">Upendra Pandit</div>
-            <p class="textdetails">I with my Team Hustlers work as a Digital Content Creation team of Prodevans Technologies creating and desgining promotional didgital content for its social media platforms.</p>
-        </div>
-        <div class="box">
-            <a href=""><img src="nasir.jpg" class="abc abc1" alt=""></a>
-            <div class="text">Naushad Zakir Ansari</div>
-            <p class="textdetails">I with my Team Hustlers work as a Digital Content Creation team of Prodevans Technologies creating and desgining promotional didgital content for its social media platforms.</p>
-        </div>
-        <div class="box">
-            <a href=""><img src="a.jpg" class="abc abc1" alt=""></a>
-            <div class="text">Ayushman Joshi</div>
-            <p class="textdetails">I with my Team Hustlers work as a Digital Content Creation team of Prodevans Technologies creating and desgining promotional didgital content for its social media platforms.</p>
-        </div>
-    </div>
-    <div class="col"></div>
-    <div class="about">
-        <div class="aboutme" id="me1">
-            Contact me
-        </div>
-        <div class="who" id="con">
-            get in touch
-        </div>
-    </div>
-    <div class="last">
+    <div class="box1" id="box2">Contact me</div>
+    <div class="last" id="last">
         <div class="address">
             <div class="text">Get in Touch</div>
             <p class="add">I love to interact with new people. Feel free to contact me for any work or related query. The details are mentioned below.</p>
@@ -169,7 +196,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p class="copy">Created By <a href="" class="nas">Mohd Nasir</a> | &#169; 2022 All rights reserved.</p>
+        Created By <a href=""> Nasir Siddiqui</a> | &#169; 2022 All rights reserved.
     </div>
 </body>
 
