@@ -644,7 +644,7 @@ nav .menu-btn {
     }
 }
 
-@media (max-width:940px) {
+@media (max-width:1000px) {
     .exp1 {
         width: calc(49% - 18px);
     }
@@ -685,7 +685,7 @@ nav .menu-btn {
     }
 }
 
-@media (max-width:940px) {
+@media (max-width:1000px) {
     .copyright {
         top: 390px;
     }
